@@ -32,6 +32,8 @@ public class Cat {
 		// Draw the head
 		g2.setColor(Color.pink);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
+		g2.fillOval(x  - 15, y + 40, 55, 40);
+		g2.fillOval(x + 80 , y + 40, 55, 40);
 		// Draw the eyes
 		g2.setColor(Color.black);
 		x = catX + EYE_X; 
